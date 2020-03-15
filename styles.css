@@ -1,0 +1,55 @@
+body {
+
+	background-color: lightgrey;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+/* header */
+.head__text {
+	color: slateblue;
+	font-family: verdana;
+	font-size: 200%;
+	text-align: center;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.head__topright {
+	text-align: right;
+	
+}
+
+
+.test1__intro {
+	color: blue;
+	font-family: courier;
+}
+
+.test1__links {
+	text-decoration: none;
+	color: blue;
+}
+.test1__links:hover {
+	text-decoration: underline;
+}
+.test1__links:visited {
+	text-decoration: none;
+}
+.test1__links:active {
+	text-decoration: none;
+}
